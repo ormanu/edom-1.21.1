@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "edom:item/scythe_inventory"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "edom:in_hand": 1.0
+      },
+      "model": "edom:item/scythe_in_hand"
+    }
+  ]
+}
